@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.montserrat-regular{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.roboto-regular{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+.bebas-neue-regular{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.btn-primary{
+    width: 170px;
+    height: 60px;
+    display: flex; 
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius:10px;
+    border: none;
+    cursor: pointer;
+    background-color: #A4BC46;
+    background-color: #85A019;
+}
+ .btn-img{
+     width: 24px;
+    height: 24px;
+}  
+
+header{
+    height: 715px;
+    background-color: #FFFBF0;
+    margin-bottom: 49px;
+}
+nav{
+    display: flex;
+    gap: 504.89px;
+    justify-content: space-between;
+}
+.nav-left{
+    height: 39.27px;
+    width: 250px;
+    display: flex;
+    gap: 10.17px;
+    align-items: center;
+    margin-top: 39px;
+    margin-left: 135px;
+}
+.nav-left img{
+    height: 39.27px;
+    width: 55.94px;
+}
+
+.nav-left h3{
+    font-size: 25.43px;
+    font-weight: bold;
+    width: 183px;
+}
+
+.genz-color{
+    color: #A4BC46;
+}
+.nav-right{
+    display: flex;
+    list-style: none;
+    gap: 57px;
+    margin-top: 47px;
+    margin-right: 137px;
+}
+.nav-right li{
+    font-size: 16px;
+    font-weight: 500;
+    color: #3C3C3C;
+}
+/* Banner */
+.banner{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 135px;
+    margin-right: 135px;
+
+
+}
+.banner-left{
+    margin-bottom: 101px ;
+
+}
+
+.banner-left h1{
+    width: 333px;
+    height: 192px;
+    font-size: 80px;
+    font-weight: normal;
+    line-height: auto;
+    color: #FABE4C;
+    margin-top: 101px;
+}
+.winter-color{
+    color: #363958;
+}
+
+.banner-left p{
+    width: 357px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #3E3E3E;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+   
+.banner-right img{
+    width: 397px;
+    height: 334px;
+    margin-top: 100px;
+    margin-left: 230px;
+}
+
+
+
+    
