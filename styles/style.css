@@ -253,3 +253,64 @@ nav{
     width: 270px;
     height: 280px;
 }
+
+
+/* Last Section */
+
+.last{
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    gap: 83px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+.parent1,.parent2,.parent3{
+    width: 489px;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 12px #0000001A;
+   
+}
+.parent1 img{
+    width: 78px;
+    height: 82px;
+}
+
+.parent2 img{
+    width: 79px;
+    height: 76px;
+}
+
+.parent3 img{
+    width: 71px;
+    height: 76px;
+}
+
+.service1 h3,.service2 h3,.service3 h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #363958;
+    margin-bottom: 14px;
+
+}
+.service1 p ,.service2 p,.service3 p{
+    width: 276px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #3E3E3E;
+}
+
+.last-right img{
+    width: 599px;
+    height: 354.07px;
+}
