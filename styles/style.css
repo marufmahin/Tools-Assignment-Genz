@@ -52,18 +52,20 @@ header{
     margin-bottom: 49px;
 }
 nav{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     gap: 504.89px;
     justify-content: space-between;
 }
 .nav-left{
     height: 39.27px;
-    width: 250px;
+    width: 249.11px;
     display: flex;
     gap: 10.17px;
     align-items: center;
     margin-top: 39px;
-    margin-left: 135px;
 }
 .nav-left img{
     height: 39.27px;
@@ -80,11 +82,12 @@ nav{
     color: #A4BC46;
 }
 .nav-right{
+    width: 415px;
+    height: 24px;
     display: flex;
     list-style: none;
     gap: 57px;
     margin-top: 47px;
-    margin-right: 137px;
 }
 .nav-right li{
     font-size: 16px;
@@ -93,12 +96,13 @@ nav{
 }
 /* Banner */
 .banner{
+    max-width: 1170px;
      display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 135px;
-    margin-right: 135px;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
@@ -134,9 +138,94 @@ nav{
     width: 397px;
     height: 334px;
     margin-top: 100px;
-    margin-left: 230px;
 }
 
+/* Main Section Started */
 
+/* Women Jacket */
 
-    
+.Women-section{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 99px;
+}
+.All-card{
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    width: 370px;
+    height: 550px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0 4px 12px #0000001A;
+
+}
+
+.W-J-Title{
+    font-size: 48px;
+    font-weight: normal;
+    color: #363958;
+    margin-bottom: 21px ;
+
+}
+
+.img-div{
+    width: 334px;
+    height: 327px;
+    border-radius: 20px;
+    background-color:#F1F1F1;
+    margin: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-img{
+    width: 293px;
+    height: 293px;
+}
+
+.jacket{
+    font-size: 24px;
+    font-weight: bold;
+    color: #363958;
+    margin-left: 22px;
+}
+
+.jacket-des{
+    width: 299px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #3E3E3E;
+    margin: 12px 0 12px 22px;
+    line-height: 26px;
+}
+
+.buy{
+    display: flex;
+    gap: 79px;
+    align-items: center;
+    margin-left: 22px;
+}
+.buy h3{
+    font-size: 36px;
+    font-weight: 900;
+    color: #FABE4C;
+}
+
+.second-img{
+    width: 203px;
+    height: 293px;
+}
+
+.third-img{
+    width: 210px;
+    height: 257px;
+}
