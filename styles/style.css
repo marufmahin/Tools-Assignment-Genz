@@ -144,7 +144,7 @@ nav{
 
 /* Women Jacket */
 
-.Women-section{
+.Woman-section{
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
@@ -228,4 +228,28 @@ nav{
 .third-img{
     width: 210px;
     height: 257px;
+}
+
+/* Man Jacket */
+
+.Man-section{
+     max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 130px;
+}
+
+.fourth-img{
+    width: 222px;
+    height: 270px;
+}
+
+.fifth-img{
+    width: 243px;
+    height: 256px;
+}
+
+.sixth-img{
+    width: 270px;
+    height: 280px;
 }
