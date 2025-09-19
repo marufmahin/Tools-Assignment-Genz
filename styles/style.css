@@ -50,94 +50,77 @@ header{
     height: 715px;
     background-color: #FFFBF0;
     margin-bottom: 49px;
+
 }
 nav{
     max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
+   margin: 0 auto;
     display: flex;
     gap: 504.89px;
+   padding: 39px 15px 0 15px;
     justify-content: space-between;
 }
 .nav-left{
-    height: 39.27px;
-    width: 249.11px;
     display: flex;
     gap: 10.17px;
     align-items: center;
-    margin-top: 39px;
 }
 .nav-left img{
     height: 39.27px;
-    width: 55.94px;
 }
 
 .nav-left h3{
     font-size: 25.43px;
     font-weight: bold;
-    width: 183px;
 }
 
 .genz-color{
     color: #A4BC46;
 }
 .nav-right{
-    width: 415px;
-    height: 24px;
     display: flex;
     list-style: none;
     gap: 57px;
-    margin-top: 47px;
+    margin-top: 8px;
 }
 .nav-right li{
     font-size: 16px;
-    font-weight: 500;
     color: #3C3C3C;
 }
 /* Banner */
 .banner{
     max-width: 1170px;
      display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-
-
 }
-.banner-left{
-    margin-bottom: 101px ;
 
-}
+
 
 .banner-left h1{
-    width: 333px;
-    height: 192px;
+    max-width: 333px;
     font-size: 80px;
-    font-weight: normal;
-    line-height: auto;
     color: #FABE4C;
-    margin-top: 101px;
 }
 .winter-color{
     color: #363958;
 }
 
 .banner-left p{
-    width: 357px;
-    height: 52px;
+    max-width: 357px;
     font-size: 16px;
-    font-weight: normal;
     color: #3E3E3E;
     margin-top: 8px;
     margin-bottom: 8px;
 }
    
 .banner-right img{
-    width: 397px;
-    height: 334px;
-    margin-top: 100px;
+   width: 100%;
+    max-width: 397px;
+    width: auto;
+    margin-top: 20px;
 }
 
 /* Main Section Started */
@@ -149,14 +132,16 @@ nav{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 99px;
+
 }
 .All-card{
     display: flex;
     gap: 20px;
+
 }
 
 .card{
-    width: 370px;
+    max-width: 370px;
     height: 550px;
     border-radius: 20px;
     background-color: #FFFFFF;
@@ -175,6 +160,7 @@ nav{
 
 }
 
+
 .img-div{
     width: 334px;
     height: 327px;
@@ -187,7 +173,7 @@ nav{
 }
 
 .first-img{
-    width: 293px;
+    max-width: 293px;
     height: 293px;
 }
 
@@ -221,13 +207,11 @@ nav{
 }
 
 .second-img{
-    width: 203px;
-    height: 293px;
+    max-width: 203px;
 }
 
 .third-img{
-    width: 210px;
-    height: 257px;
+    max-width: 210px;
 }
 
 /* Man Jacket */
@@ -240,18 +224,16 @@ nav{
 }
 
 .fourth-img{
-    width: 222px;
-    height: 270px;
+    max-width: 222px;
 }
 
 .fifth-img{
-    width: 243px;
-    height: 256px;
+    max-width: 243px;
 }
 
 .sixth-img{
-    width: 270px;
-    height: 280px;
+    max-width: 270px;
+
 }
 
 
@@ -268,7 +250,7 @@ nav{
 }
 
 .parent1,.parent2,.parent3{
-    width: 489px;
+    max-width: 489px;
     height: 135px;
     display: flex;
     justify-content: center;
@@ -281,18 +263,15 @@ nav{
    
 }
 .parent1 img{
-    width: 78px;
-    height: 82px;
+    max-width: 78px;
 }
 
 .parent2 img{
-    width: 79px;
-    height: 76px;
+    max-width: 79px;
 }
 
 .parent3 img{
-    width: 71px;
-    height: 76px;
+    max-width: 71px;
 }
 
 .service1 h3,.service2 h3,.service3 h3{
@@ -303,16 +282,78 @@ nav{
 
 }
 .service1 p ,.service2 p,.service3 p{
-    width: 276px;
-    height: 52px;
+   max-width: 276px;
     font-size: 16px;
     font-weight: normal;
     color: #3E3E3E;
 }
 
 .last-right img{
-    width: 599px;
-    height: 354.07px;
+   max-width: 599px;
+}
+
+/* Responsive */
+
+@media screen and (max-width:576px) {
+
+    header{
+        height: auto;
+        width: 100%;     
+    }
+    nav{
+        flex-direction: column;
+        gap: 20px;
+        width:100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-right{
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .banner-left{
+        margin-bottom: 20px;
+    }
+    .banner-right img{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .W-J-Title{
+        text-align: center;
+    }
+
+    .All-card{
+        flex-direction: column;
+  }
+  .last{
+    flex-direction: column-reverse;
+  }
+  .last-left{
+    width: 80%;
+
+  }
+
+  .last-right img{
+   width: 100%;
+}
+
+.parent1,.parent2,.parent3{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 
+}
